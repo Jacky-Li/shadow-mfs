@@ -15,7 +15,7 @@ Installation and using Keepalive：http://www.keepalived.org/
 
 ============
 
-to use master shadow， the master.cfg should add as follow:
+to use master shadow，the master.cfg should add as follow:
 
 as master:
 MASTER_HOST = slaveip //master ip when is slave, no use for master
@@ -66,13 +66,14 @@ Compatibility matrix
 ====================
 (tested Operating Systems only):
 
-					Client	Master	Chunkserver
-Linux 2.6.x (i386):			YES	YES	YES
-FreeBSD 5.x (i386+amd64):		NO	YES	YES
-FreeBSD 6.x (i386+amd64):		YES	YES	YES
-FreeBSD 7.x (i386+amd64):		YES	YES	YES
-MacOS X 10.3 (Panther, ppc):		NO	YES	YES
-MacOS X 10.4 (Tiger, ppc+i386):		YES	YES	YES
-MacOS X 10.5 (Leopard, ppc+i386):	YES	YES	YES
-Solaris 10 (sparc):			NO	YES	YES
-OpenSolaris (i386):			YES	YES	YES
+| Client | Master | Chunkserver|
+| :--:| :--: | :--: | :--:|
+| Linux 2.6.x (i386):			    |YES|	YES	|YES|
+| FreeBSD 5.x (i386+amd64):		    |NO	|YES	|YES|
+| FreeBSD 6.x (i386+amd64):		    |YES|	YES	|YES|
+| FreeBSD 7.x (i386+amd64):		    |YES|	YES	|YES|
+| MacOS X 10.3 (Panther, ppc):		|NO	|YES	|YES|
+| MacOS X 10.4 (Tiger, ppc+i386):	|YES|	YES	|YES|
+| MacOS X 10.5 (Leopard, ppc+i386):	|YES|	YES	|YES|
+| Solaris 10 (sparc):			    |NO	|YES	|YES|
+| OpenSolaris (i386):			    |YES|	YES	|YES|
