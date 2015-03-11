@@ -66,7 +66,7 @@ Compatibility matrix
 ====================
 (tested Operating Systems only):
 
-| Client | Master | Chunkserver|
+| OS | Client | Master | Chunkserver|
 | :--:| :--: | :--: | :--:|
 | Linux 2.6.x (i386):			    |YES|	YES	|YES|
 | FreeBSD 5.x (i386+amd64):		    |NO	|YES	|YES|
