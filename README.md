@@ -15,7 +15,7 @@ Installation and using Keepalive：http://www.keepalived.org/
 
 ============
 
-to use master ha， the master.cfg should add as follow:
+to use master shadow， the master.cfg should add as follow:
 
 as master:
 MASTER_HOST = slaveip //master ip when is slave, no use for master
